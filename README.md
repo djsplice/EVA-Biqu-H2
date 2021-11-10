@@ -4,6 +4,8 @@ These were designed to work with the [Mercury One](https://github.com/ZeroGDesig
 
 This is a mount that connects the Biqu H2 hot end and extruder to the EVA Mercury faceplate, with fan duct to match.
 
+The fan duct is loosely based on the official [EVA](https://main.eva-3d.page/) fan ducts. 'Loosely' in the fact that I'm a CAD n00b, and the official designs have much more thought/testing put into them compared to my functional yet hacky rendtion! ;)
+
 ## Images
 ![Face Plate](/img/EVA-Biqu-H2-Faceplate.png)
 ![Fan Duct](/img/EVA-Biqu-H2-Fan_Duct.png)
