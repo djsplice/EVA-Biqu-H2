@@ -1,16 +1,35 @@
-# EVA Modifications for the Biqu H2 hot end / extruder
+# EVA mount for the Biqu H2 hot end / extruder
 
-These were designed to work with the Mercury One conversion for an Ender 5. I believe there are some updates made to the belt path/attachment and are based on the EVA v2 spec.
+These were designed to work with the [Mercury One](https://github.com/ZeroGDesign/Mercury) conversion for an Ender 5. Rudra has made an [EVA universal faceplate](https://drive.google.com/drive/folders/1WeMnU41LHNeeJy4bnJhXC6Zqy8RPeaLE) based on the EVA v2 spec that works with the Mercury One belt paths.
+
+This is a mount that connects the Biqu H2 hot end and extruder to the EVA Mercury faceplate, with fan duct to match.
+
+## Images
+![Face Plate](/img/EVA-Biqu-H2-Faceplate.png)
+![Fan Duct](/img/EVA-Biqu-H2-Fan_Duct.png)
+
+## Installation
+* Download and print [EVA universal faceplate](https://drive.google.com/drive/folders/1WeMnU41LHNeeJy4bnJhXC6Zqy8RPeaLE), the Eva Biqu H2 mount, and the Fan duct.
+
+![Print orientation H2 Mount](/img/EVA-H2_mount.jpg)
+
+* Attach the H2 faceplate to the EVA carriage using 3 M3 screws
+![EVA - Merc mount](/img/EVA-Merc-Mount.jpg)
+
+* Attach the fan duct to the EVA carriage
+
+* Attach the H2 to the faceplate via 2 screws on top of the H2, and one screw in the back.
+
+![Merc - H2 rear bolt](/img/EVA-Merc-H2-install-rear-bolt.jpeg)
+
+![Installed](/img/EVA-H2_installed.jpg)
+
 
 ## Known Issues
-1. I optimized the design for ease of use, meaning it's easy to mount and unmount the H2 from the EVA carriage, and have 3 points of attachment between the carriage and the extruder.
+1. I optimized the design to make it fairly easy to remove the H2 from the EVA carriage while providing good rigidity using 3 point connections (3 screws between the faceplate and the carriage, and 3 screws connecting the H2 to the faceplate). In initial iterations of this design, I'd tried connecting the H2 to the faceplate using only two screws, but vibrations at higher print speeds had negative effects on quality.
 
-I'd initially only had the extruder mounted by 2 bolts on the top of the extruder, but this wasn't as rigid as it could be.
+2. Because of the challenges with bolt clearances between the H2 mounts and the faceplate, the extruder is ever so slightly off center from the carriage. It's about 2mm off of center from the carriage which slightly interferes with the fan duct.
 
-2. Because of the challenges with bolt clearances between the extruder mounts and the faceplate, the extruder is ever so slightly off center from the faceplate. It's less the .5mm off center, and hasn't caused any problems for me.
-
-3. I had to design a new fan duct because existing mods didn't quite fit correctly for me. The current nozzle design sits very close to the build plate, (a little too close for my comfort) but has about .3mm clearance.
-
-I also found that there are a number of ways to assemble the heat break / nozzle which results in varying distances from the build plate! Depending on how you have yours put together, the fan duct may not have enough clearance... Please verify your installation before you experience a crash.
+3. I had to design a new fan duct because existing mods didn't quite fit correctly for me. The current nozzle design sits pretty close to the build plate, 1mm clearance. Because of the H2 / carriage offset, the right side air duct seems to be a bit impeded. While there's more optimization to be had here, the fan duct works pretty well for general purpose prints.
 
 4. I'm a CAD n000b - I make things that work for me, and by sharing them I hope other find utility in them as well!
