@@ -22,6 +22,7 @@ The fan duct is loosely based on the official [EVA](https://main.eva-3d.page/) f
 
 * Attach the H2 to the faceplate via 2 screws on top of the H2, and one screw in the back.
 
+![Merc - H2 Faceplate mounted](/img/EVA-H2_mount-installed.jpg)
 ![Merc - H2 rear bolt](/img/EVA-Merc-H2-install-rear-bolt.jpeg)
 
 ![Installed](/img/EVA-H2_installed.jpg)
