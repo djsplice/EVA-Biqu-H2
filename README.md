@@ -37,4 +37,4 @@ Big thanks to all the designers of EVA and associated mods, great work!
 
 3. I had to design a new fan duct because existing mods didn't quite fit correctly for me. The current nozzle design sits pretty close to the build plate, 1mm clearance. Because of the H2 / carriage offset, the right side air duct seems to be a bit impeded. While there's more optimization to be had here, the fan duct works pretty well for general purpose prints.
 
-4. I'm a CAD n000b - I make things that work for me, and by sharing them I hope other find utility in them as well!
+4. I'm a CAD n000b - I make things that work for me, and by sharing them I hope others find utility in them as well!
